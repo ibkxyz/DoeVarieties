@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF">
+
+     <ImageView
+            android:id="@+id/doelogo"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/doelogo"
+            />
+
+    <ImageView
+            android:id="@+id/imageRetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/retail"
+            android:layout_below="@id/doelogo"
+             />
+
+    <TextView
+        android:id="@+id/textBusinessName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="#FFFFFF"
+        android:layout_alignBottom="@+id/imageRetail"
+        android:text="DOE VARIETIES"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#E94B36"
+        android:fontFamily="sans-serif"
+        />
+
+    <TextView
+            android:id="@+id/textDescription"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/textBusinessName"
+            android:text="Is an Wholesaler, Distributor and Retailer of Consumables."
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:textColor="#E94B36"
+            android:fontFamily="sans-serif-light"
+        />
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textSlogan"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="end"
+        android:text="Okuronmu Avenue, Kolobo, Abeokuta, Ogun State, Nigeria."
+        android:textStyle="italic"
+        android:textSize="12sp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif"
+        />
+
+    <ImageView
+        android:id="@+id/imageLocationIcon"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_above="@+id/textSlogan"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="35dp"
+        android:src="@drawable/redlocationicon"
+        />
+
+    <TextView
+        android:id="@+id/textCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textNumber"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorAccent"
+        android:gravity="end"
+        android:text="CALL:"
+        android:textStyle="italic"
+        android:textSize="8sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"
+        />
+
+    <TextView
+        android:id="@+id/textNumber"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textOpening"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentRight="true"
+        android:gravity="end"
+        android:text="+234703 046 9137"
+        android:textStyle="italic"
+        android:textSize="12sp"
+        android:textColor="#E94B36"
+        android:fontFamily="sans-serif"
+        />
+
+
+    <TextView
+        android:id="@+id/textOpening"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textTime"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorAccent"
+        android:gravity="end"
+        android:text="OPENING HOURS:"
+        android:textStyle="italic"
+        android:textSize="8sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"
+        />
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textSlogan"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentRight="true"
+        android:gravity="end"
+        android:text="8AM - 7PM DAILY"
+        android:textStyle="italic"
+        android:textSize="12sp"
+        android:textColor="#E94B36"
+        android:fontFamily="sans-serif"
+        />
+
+    <TextView
+        android:id="@+id/textSlogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#E67817"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="...service at its best!"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="cursive"
+        />
+
+
+
+
+</RelativeLayout>
